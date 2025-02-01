@@ -5,50 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OMB</title>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
-            font-family: 'Cinzel', serif; /* Aplicando a fonte Cinzel */
+            font-family: 'Cinzel', serif;
             text-align: center;
             background-color: #000;
             color: white;
-            padding: 50px;
+            padding: 47.5px; /* Diminuído em 5% */
+            font-size: 0.95em; /* Diminuído em 5% */
         }
         h1 {
             color: #ff0000;
-            font-size: 3em;
+            font-size: 2.85em; /* Diminuído em 5% */
         }
         p {
-            font-size: 1.2em;
+            font-size: 1.14em; /* Diminuído em 5% */
         }
         button {
             background-color: #ff0000;
             color: white;
             border: none;
-            padding: 15px;
-            font-size: 1.2em;
+            padding: 14.25px; /* Diminuído em 5% */
+            font-size: 1.14em; /* Diminuído em 5% */
             cursor: pointer;
             border-radius: 10px;
-            font-family: 'Cinzel', serif; /* Aplicando a fonte Cinzel ao botão */
+            font-family: 'Cinzel', serif;
         }
         button:hover {
             background-color: #c70039;
         }
         .banner {
-            width: 100%;
-            max-width: 800px;
+            width: 95%; /* Diminuído em 5% */
+            max-width: 760px; /* Diminuído em 5% */
         }
         .logo {
-            width: 200px;
-            margin-top: 20px;
+            width: 190px; /* Diminuído em 5% */
+            margin-top: 19px;
         }
         .footer-logo {
-            width: 150px;
-            margin-top: 30px;
+            width: 142.5px; /* Diminuído em 5% */
+            margin-top: 28.5px;
         }
         .powered-on {
             margin-top: 0;
             margin-bottom: 0;
             line-height: 1;
+        }
+        .social-icons {
+            margin-top: 19px;
+        }
+        .social-icons a {
+            color: white;
+            font-size: 1.9em; /* Diminuído em 5% */
+            margin: 0 9.5px;
+            text-decoration: none;
+        }
+        .social-icons a:hover {
+            color: #ff0000;
         }
     </style>
 </head>
@@ -60,8 +75,12 @@
     <br>
     <img src="omb.png" alt="Odin Logo" class="logo">
     <br>
-	<br>
-	<br>
+    <div class="social-icons">
+        <a href="https://x.com/OdinMaxiBiz" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+    <br>
     <p class="powered-on">Powered on</p>
     <img src="download.png" alt="Odin Fun" class="footer-logo">
 </body>
